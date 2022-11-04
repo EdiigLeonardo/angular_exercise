@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { UpskillDivComponent } from './component/upskill-div/upskill-div.component';
 import { PerguntaComponent } from './component/pergunta/pergunta.component';
 import { OpcaoItemComponent } from './component/opcao-item/opcao-item.component';
-import { ButtomComponent } from './component/buttom/buttom.component';
+import { SemRespostaComponent } from './component/sem-resposta/sem-resposta.component';
 import { RespondidoComponent } from './pages/respondido/respondido.component';
 import { PorResponderComponent } from './pages/por-responder/por-responder.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -17,7 +17,7 @@ import { NavComponent } from './component/nav/nav.component';
     UpskillDivComponent,
     PerguntaComponent,
     OpcaoItemComponent,
-    ButtomComponent,
+    SemRespostaComponent,
     RespondidoComponent,
     PorResponderComponent,
     NavComponent

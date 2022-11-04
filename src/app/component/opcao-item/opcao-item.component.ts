@@ -10,18 +10,9 @@ export class OpcaoItemComponent implements OnInit {
 
   constructor() { }
   @Input() resposta!: Resposta;
-  @Output() color = "";
+  color="steelblue";
 
   ngOnInit(): void {
   }
-
-  onClick(){
-    console.log(this.resposta.estado)
-    if(this.resposta.estado){
-      this.color = "green";
-      console.log('works');
-    }
-  }
-
 
 }

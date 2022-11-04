@@ -1,4 +1,8 @@
-<app-upskill-div></app-upskill-div>
-<app-opcao-item *ngFor="let items of listaRespostas"
-                [resposta]="items">
-</app-opcao-item>
+<div class="container">
+  <app-upskill-div></app-upskill-div>
+  <app-pergunta></app-pergunta>
+  <app-opcao-item *ngFor="let items of listaRespostas"
+                  [resposta]="items">
+  </app-opcao-item>
+</div>
+

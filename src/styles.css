@@ -81,4 +81,17 @@ a:active{
   transform: scale(0.98);
 }
 
+h1, h2{
+  display: block;
+  margin: 15px 0 15px 0;
+  padding: 10px 0 10px 0;
+  background-color: steelblue;
+  border: 0.1px solid antiquewhite;
+  outline: 2px solid steelblue;
+}
+
+h3{
+  margin: 5px 0 5px 0;
+}
+
 /* You can add global styles to this file, and also import other style files */
